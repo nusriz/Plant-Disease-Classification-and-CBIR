@@ -1,7 +1,8 @@
 # Plant-Disease-Classification-and-CBIR
 
 This project is an attempt to develop a Content Based Image Retrieval (CBIR)
-system to retrieve images of diseased leaves of tomato plant. It uses colour, shape
+system to retrieve images of diseased leaves of tomato plant. Such as Bacterial Spot, Septorial spot, Tomato mosaic and Late blight.
+It uses colour, shape
 and texture features of the tomato leaf to classify and retrieve similar images. HSV
 colour histogram is used to extract colour features. Fourier descriptors provides
 shape feature, in the form of contour of the region of interest. Local Binary Pattern
@@ -20,5 +21,4 @@ to find the suitable distance metric for retrieval purposes. In regards of class
 mean accuracy of 97.3% is achieved in linear SVC model by 5-fold cross validation.
 And in retrieval, mean average precision of 85.08% and Bull’s eye performance of
 90.17% are obtained using canberra distance metric.
-Keywords : Colour Histograms, Fourier Descriptors, Local Binary Patterns, Completed
-LBP, Support Vector Machine, Content Based Image Retrieval
+
